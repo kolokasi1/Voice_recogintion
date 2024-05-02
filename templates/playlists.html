@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify Playlists</title>
+</head>
+<body>
+    <h1>Your Playlists</h1>
+    <form method="post">
+        <table>
+            <tr>
+                <th>Playlist Name</th>
+                <th>Keyword</th>
+            </tr>
+            {% for playlist in playlists %}
+            <tr>
+                <td>{{ playlist.name }}</td>
+                <td>
+                    <input type="text" name="keyword-{{ playlist.id }}" value="{{ keywords[playlist.id] }}">
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+        <button type="submit">Save Keywords</button>
+    </form>
+</body>
+</html>
