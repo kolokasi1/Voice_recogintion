@@ -12,8 +12,8 @@ app = Flask(__name__)
 AUTH_URL = 'https://accounts.spotify.com/authorize'
 TOKEN_URL = 'https://accounts.spotify.com/api/token'
 REDIRECT_URI = 'http://localhost:3000/callback' # your redirect URI
-CLIENT_ID = "0b641ee8238d4e6186fc57a4b5c5bef5"
-CLIENT_SECRET = "4f6d0a885480435b829592422ff85c47"
+CLIENT_ID = "ADD YOUR CLIENT ID"
+CLIENT_SECRET = "ADD YOUR SECRET"
 SCOPE = ' '.join([
     "user-read-playback-state",
     "app-remote-control",
