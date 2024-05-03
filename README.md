@@ -69,14 +69,3 @@ To use the application, speak the name of the playlist you want to add the curre
 - [Spotify Web API](https://developer.spotify.com/documentation/web-api/) - Used to control Spotify playback and manage playlists
 - [Python SpeechRecognition](https://pypi.org/project/SpeechRecognition/) - Library for performing speech recognition
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://github.com/yourusername/spotify-voice-recognition/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Authors
-
-- **Your Name** - *Initial work* - [YourUsername](https://github.com/yourusername)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
